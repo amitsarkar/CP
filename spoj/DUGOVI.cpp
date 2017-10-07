@@ -61,12 +61,10 @@ int main()
 		}
 	}
 
-
 	long no_of_cycles = 0;
 	//only cycles remaining now, find cycle count and minimum refund in each cycle
 	for (long i = 1; i <= N; i++)
 	{
-
 		if (due[i] && !visited[i])
 		{
 			long min = MAX_DUE, min_i=0;
@@ -91,7 +89,6 @@ int main()
 			}
 			cycles[no_of_cycles] = min_i;
 			no_of_cycles++;
-
 		}
 	}
 
