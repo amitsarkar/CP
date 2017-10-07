@@ -1,0 +1,2 @@
+This file would contain the list of problems solved from SPOJ in alphanumeric order. The format is as follows:
+PROBLEM_NAME_OR_NUMBER LINK_TO_THE_PROBLEM
